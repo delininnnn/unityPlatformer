@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - bullet1
+  - bullet2
+  - walls
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - r4r4r4r
+  - Water
+  - UI
+  - groundLayer
+  - player
+  - bullet
+  - BREAKTHEWAAAAL
+  - justWall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1978508183
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2669875737
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 245844091
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 2617160479
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 2297251035
+    locked: 0
+  - name: froggi
+    uniqueID: 3999489367
+    locked: 0
+  - name: bullet1
+    uniqueID: 1249535757
+    locked: 0
+  - name: bullet2
+    uniqueID: 2246813375
+    locked: 0
