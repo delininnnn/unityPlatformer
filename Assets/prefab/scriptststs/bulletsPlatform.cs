@@ -20,9 +20,11 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the bullet collided with a wall
-        if (collision.gameObject.CompareTag("walls"))
+        if (collision.gameObject.CompareTag("walls") || collision.gameObject.CompareTag("ground"))
         {
             Destroy(gameObject); // Destroy the bullet
         }
     }
+
+
 }
