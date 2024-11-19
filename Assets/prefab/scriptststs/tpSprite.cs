@@ -13,7 +13,15 @@ public class TeleportToScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Load the specified scene
+    
             SceneManager.LoadScene(sceneToLoad);
         }
+
+        {
+            Debug.Log("ok");
+        
+        }
     }
+
+
 }
