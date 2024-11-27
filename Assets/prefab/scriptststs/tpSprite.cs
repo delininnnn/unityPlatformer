@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TeleportToScene : MonoBehaviour
 {
-    public string sceneToLoad; // Name of the scene to load
+    public int sceneToLoad; // Name of the scene to load
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,10 +17,7 @@ public class TeleportToScene : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
 
-        {
-            Debug.Log("ok");
-        
-        }
+       
     }
 
 
