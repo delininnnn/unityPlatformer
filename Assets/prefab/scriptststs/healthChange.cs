@@ -9,7 +9,7 @@ public class healthChange : MonoBehaviour
     [SerializeField] private Slider _slider;
     [SerializeField] private LayerMask _layerMask;
 
-    private void OnTriggerEnter(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == _layerMask)
         {

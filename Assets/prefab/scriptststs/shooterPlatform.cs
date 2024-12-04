@@ -32,10 +32,11 @@ public class Shooter : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(currentBulletPrefab, transform.position, Quaternion.identity);
+        GameObject bullet = Instantiate(currentBulletPrefab);
+        bullet.transform.position = transform.position;
 
         // Get the player's view direction on the X-axis
-        Vector2 shootDirection = new Vector2(transform.localScale.x, 0).normalized;
+        Vector2 shootDirection = new Vector2(transform.localScale.x, 0);
 
         bullet.GetComponent<Bullet>().Initialize(shootDirection);
     }
